@@ -1,0 +1,19 @@
+{
+    "description": "mollie payment service for the neosrulez-shop package",
+    "type": "neos-package",
+    "name": "neosrulez/shop-mollie",
+    "require": {
+        "neosrulez/shop": "*",
+        "mollie/mollie-api-php": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NeosRulez\\Shop\\Mollie\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "NeosRulez.Shop.Mollie"
+        }
+    }
+}
